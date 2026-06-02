@@ -85,32 +85,7 @@ All portfolio content (skills, projects, experience, personal info) is centraliz
 ```
 client/src/data/portfolioData.js
 ```
-
 Edit this single file to update your name, descriptors, social links, skills, projects, and experience — no need to touch component code.
-
-## 🔒 Git — Securing Your `.env` File
-
-If you accidentally committed your `.env` file previously, run these commands to remove it from Git history while keeping it locally:
-
-```bash
-# Remove .env from Git tracking (keeps the local file)
-git rm --cached server/.env
-
-# Ensure .env is in .gitignore
-echo "server/.env" >> server/.gitignore
-
-# Commit the fix
-git add server/.gitignore
-git commit -m "chore: stop tracking .env file"
-```
-
-### Nuclear option — Clear entire Git cache and re-apply .gitignore:
-```bash
-git rm -r --cached .
-git add .
-git commit -m "chore: clear git cache, re-apply .gitignore"
-```
-
 ## 📦 API Endpoints
 
 | Method | Endpoint | Description |
