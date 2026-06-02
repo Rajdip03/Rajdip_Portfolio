@@ -56,8 +56,8 @@ Portfolio/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Rajdip03/portfolio.git
-cd portfolio
+git clone https://github.com/Rajdip03/Rajdip_Portfolio.git
+cd Rajdip_Portfolio
 ```
 
 ### 2. Set up the Backend
