@@ -58,15 +58,14 @@ export const experiences = [
   //     "Describe your key responsibilities, technologies used, and impact. Replace this placeholder with your actual experience.",
   //   techStack: ["React", "Node.js", "MongoDB"],
   // },
-  // {
-  //   id: 2,
-  //   role: "Previous Role",
-  //   company: "Previous Company",
-  //   duration: "Jun 2024 — Dec 2024",
-  //   description:
-  //     "Another experience entry. Update with your internship, freelance, or project-based work details.",
-  //   techStack: ["Java", "Spring Boot", "MySQL"],
-  // },
+  {
+    id: 2,
+    role: "MERN Stack Developer",
+    company: "Run Time Solution",
+    duration: "July 2026 — Present",
+    description:"• Built and maintained scalable, reusable, and responsive React.js components, improving code reusability and maintainability across multiple modules. • Developed the complete frontend of web applications using React.js, JavaScript, Tailwind CSS, HTML5, and CSS3, delivering pixel-perfect and responsive user interfaces.• Designed and implemented component-based architecture, reducing code duplication and enabling faster feature development.• Integrated RESTful APIs with the frontend to ensure seamless communication between client and server.• Optimized application performance through lazy loading, efficient state management, and component optimization, resulting in a smoother user experience.• Collaborated closely with UI/UX designers, backend developers, QA engineers, and project managers to deliver high-quality features within project timelines.• Implemented responsive and mobile-first designs, ensuring compatibility across desktops, tablets, and mobile devices.",
+    techStack: ["MongoDB","Express.js","React.js", "Node.js", "Redux","JavaScript", "MERN Stack", "Tailwind CSS", "REST API", "Responsive Design", "Reusable Components", "Component-Based Architecture", "State Management", "React Hooks", "Context API", "Git", "Frontend Development", "Full Stack Development", "Performance Optimization", "UI Development", "Cross-Browser Compatibility","Bug Fixing"],
+  },
   {
     id: 1,
     role: "Product Implementation Trainee",
