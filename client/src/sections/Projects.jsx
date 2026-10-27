@@ -5,6 +5,7 @@ import SectionWrapper from "../components/SectionWrapper";
 import ProjectCard from "../components/ProjectCard";
 import AiResumeBuilderCard from "../components/AiResumeBuilderCard";
 import PortfolioWebsiteCard from "../components/PortfolioWebsiteCard";
+import KalpavyaCard from "../components/KalpavyaCard";
 import { projects } from "../data/portfolioData";
 
 export default function Projects() {
@@ -68,6 +69,8 @@ export default function Projects() {
                 <AiResumeBuilderCard project={project} index={index} />
               ) : project.shortTitle === "Portfolio Website" ? (
                 <PortfolioWebsiteCard project={project} index={index} />
+              ) : project.shortTitle === "Kalpavya" ? (
+                <KalpavyaCard project={project} index={index} />
               ) : (
                 <ProjectCard project={project} index={index} />
               )}

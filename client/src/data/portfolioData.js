@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "AI Resume Builder",
+    title: "AI Carrer Assistant",
     shortTitle: "AI Resume Builder",
     description:
       "An A modern full-stack application designed to automate professional resume creation. By leveraging AI content generation and automated image processing, it removes the hassle of manual writing and formatting, providing job seekers with optimized resumes and live web-sharing capabilities.Key Features:AI Content Generation: Automates professional content creation and optimizes resume bullet points using the Google Gemini AI.Automated Background Removal: Integrated image processing tools that instantly clean profile pictures for a polished, professional look.Live URL Sharing: Generates unique, shareable web links for recruiters to view resumes instantly online alongside traditional real-time previews.Interactive Editor: Features an intuitive management dashboard to seamlessly create, edit, or delete personal information, experience, education, and skills sections.intelligent resume builder powered by AI that helps users create professional, ATS-friendly resumes. Features include AI-powered content suggestions, multiple templates, real-time preview, and PDF export.",
@@ -103,6 +103,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Kalpavya — E-Commerce Platform",
+    shortTitle: "Kalpavya",
+    description:
+      "KALPAVYA, an e-commerce platform. The name KALPAVYA inspired by the ancient Indian concept of Kalpavriksha, the wish-fulfilling tree. I wanted a name that represents discovery, possibilities, and fulfilling people's needs.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/Rajdip03",
+    live: "#",
+    gradient: "from-amber-500 to-orange-600",
+    accentColor: "#d97706",
+  },
+  {
+    id: 4,
     title: "Portfolio Website",
     shortTitle: "Portfolio Website",
     description: "A modern, dynamic personal portfolio built to showcase my projects, experience, and skills. Features stunning animations, dark/light mode, a custom cursor, and a functional contact form.",

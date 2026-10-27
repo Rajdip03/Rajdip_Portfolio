@@ -116,7 +116,7 @@ export default function AiResumeBuilderCard({ project, index }) {
           }}
         >
           Get your dream job with <br />
-          <span style={{ color: "#00cc66" }}>AI-powered</span> Resume.
+          <span style={{ color: "#00cc66" }}>CareerForge AI</span> AI Assistant Career.
         </h3>
 
         {/* Subtitle */}
@@ -193,7 +193,7 @@ export default function AiResumeBuilderCard({ project, index }) {
 
         <div style={{ display: "flex", gap: 12, marginTop: "auto" }}>
           <a
-            href={project.github}
+            href={"https://ai-resume-builder-orpin-xi.vercel.app/"}
             target="_blank"
             rel="noopener noreferrer"
             className="clickable"
@@ -212,7 +212,7 @@ export default function AiResumeBuilderCard({ project, index }) {
               transition: "background 0.3s",
             }}
           >
-            <FiGithub /> Code
+            <FiGithub /> Live Demo
           </a>
           {project.live && project.live !== "#" && (
             <a
